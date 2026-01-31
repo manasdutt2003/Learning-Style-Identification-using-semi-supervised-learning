@@ -1,7 +1,7 @@
 # Learning Style Identification using Semi-Supervised Learning
 
 ## 🚀 Live Demo
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://learning-style-identification-using-semi-supervised-learning-6.streamlit.app/)
 
 ## 📊 Features
 

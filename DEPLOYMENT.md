@@ -27,7 +27,7 @@ Click "Advanced settings" to:
 ### 5. **Deploy!**
 - Click "Deploy"
 - Wait 2-5 minutes for deployment
-- Your app will be live at: `https://[your-app-name].streamlit.app`
+- Your app will be live at: `https://learning-style-identification-using-semi-supervised-learning-6.streamlit.app/`
 
 ## 🔑 Adding Gemini API Key (Recommended)
 
