@@ -1,0 +1,8 @@
+{
+  "date": "2026-02-12",
+  "active_users": 341,
+  "top_learning_style": "Reading/Writing",
+  "model_accuracy": 0.9391,
+  "best_performing_model": "Random Forest",
+  "predictions_made": 269
+}
