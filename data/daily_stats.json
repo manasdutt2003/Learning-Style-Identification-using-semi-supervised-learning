@@ -1,8 +1,8 @@
 {
-  "date": "2026-02-13",
-  "active_users": 413,
+  "date": "2026-02-14",
+  "active_users": 187,
   "top_learning_style": "Kinesthetic",
-  "model_accuracy": 0.9183,
+  "model_accuracy": 0.8675,
   "best_performing_model": "Neural Network",
-  "predictions_made": 265
+  "predictions_made": 313
 }
