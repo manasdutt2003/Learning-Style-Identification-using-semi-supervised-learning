@@ -1,8 +1,9 @@
 {
   "date": "2026-02-14",
-  "active_users": 187,
-  "top_learning_style": "Kinesthetic",
-  "model_accuracy": 0.8675,
-  "best_performing_model": "Neural Network",
-  "predictions_made": 313
+  "timestamp": "2026-02-14T13:09:43.362764",
+  "active_users": 463,
+  "top_learning_style": "Auditory",
+  "model_accuracy": 0.9497,
+  "best_performing_model": "Random Forest",
+  "predictions_made": 492
 }
