@@ -13,6 +13,7 @@ def generate_stats():
     
     stats = {
         "date": today,
+        "timestamp": datetime.now().isoformat(),
         "active_users": random.randint(50, 500),
         "top_learning_style": random.choice(LEARNING_STYLES),
         "model_accuracy": round(random.uniform(0.85, 0.98), 4),
