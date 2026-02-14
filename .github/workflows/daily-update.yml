@@ -3,7 +3,7 @@ name: Daily Learning Stats Update
 on:
   schedule:
     # Run at 01:00 UTC every day
-    - cron: '0 1 * * *'
+    - cron: '10 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -28,8 +28,8 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git config --global user.name 'Manas Dutt'
+        git config --global user.email 'manasdutt2003@gmail.com'
         git add data/daily_stats.json
         git commit -m "chore: update daily learning stats [skip ci]" || echo "No changes to commit"
         git push
