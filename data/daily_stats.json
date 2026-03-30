@@ -1,9 +1,9 @@
 {
   "date": "2026-03-30",
-  "timestamp": "2026-03-30T13:57:45.048896",
-  "active_users": 97,
+  "timestamp": "2026-03-30T15:16:44.775931",
+  "active_users": 359,
   "top_learning_style": "Reading/Writing",
-  "model_accuracy": 0.9363,
-  "best_performing_model": "Decision Tree",
-  "predictions_made": 631
+  "model_accuracy": 0.9065,
+  "best_performing_model": "Random Forest",
+  "predictions_made": 215
 }
