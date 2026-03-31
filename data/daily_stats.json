@@ -1,9 +1,9 @@
 {
   "date": "2026-03-31",
-  "timestamp": "2026-03-31T13:56:30.920730",
-  "active_users": 254,
-  "top_learning_style": "Kinesthetic",
-  "model_accuracy": 0.9038,
+  "timestamp": "2026-03-31T15:16:44.581955",
+  "active_users": 105,
+  "top_learning_style": "Auditory",
+  "model_accuracy": 0.8656,
   "best_performing_model": "CatBoost",
-  "predictions_made": 550
+  "predictions_made": 559
 }
