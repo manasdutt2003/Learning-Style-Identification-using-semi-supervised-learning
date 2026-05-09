@@ -1,9 +1,9 @@
 {
   "date": "2026-05-09",
-  "timestamp": "2026-05-09T19:16:52.554261",
-  "active_users": 211,
-  "top_learning_style": "Visual",
-  "model_accuracy": 0.9799,
+  "timestamp": "2026-05-09T20:57:23.439785",
+  "active_users": 231,
+  "top_learning_style": "Kinesthetic",
+  "model_accuracy": 0.9308,
   "best_performing_model": "Neural Network",
-  "predictions_made": 909
+  "predictions_made": 707
 }
