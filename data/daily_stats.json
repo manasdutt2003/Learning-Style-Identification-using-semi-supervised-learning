@@ -1,9 +1,9 @@
 {
   "date": "2026-05-22",
-  "timestamp": "2026-05-22T12:30:44.862430",
-  "active_users": 213,
-  "top_learning_style": "Kinesthetic",
-  "model_accuracy": 0.9666,
-  "best_performing_model": "Decision Tree",
-  "predictions_made": 541
+  "timestamp": "2026-05-22T16:33:44.116295",
+  "active_users": 208,
+  "top_learning_style": "Visual",
+  "model_accuracy": 0.8622,
+  "best_performing_model": "Random Forest",
+  "predictions_made": 924
 }
