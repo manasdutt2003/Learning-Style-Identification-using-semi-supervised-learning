@@ -1,9 +1,9 @@
 {
   "date": "2026-06-12",
-  "timestamp": "2026-06-12T18:17:01.807189",
-  "active_users": 194,
-  "top_learning_style": "Reading/Writing",
-  "model_accuracy": 0.8886,
-  "best_performing_model": "Random Forest",
-  "predictions_made": 189
+  "timestamp": "2026-06-12T21:57:56.002275",
+  "active_users": 456,
+  "top_learning_style": "Visual",
+  "model_accuracy": 0.9388,
+  "best_performing_model": "CatBoost",
+  "predictions_made": 814
 }
