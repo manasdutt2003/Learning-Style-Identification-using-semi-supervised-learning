@@ -1,9 +1,9 @@
 {
   "date": "2026-07-26",
-  "timestamp": "2026-07-26T19:24:16.006631",
-  "active_users": 322,
-  "top_learning_style": "Reading/Writing",
-  "model_accuracy": 0.928,
-  "best_performing_model": "Random Forest",
-  "predictions_made": 180
+  "timestamp": "2026-07-26T21:07:14.889936",
+  "active_users": 474,
+  "top_learning_style": "Kinesthetic",
+  "model_accuracy": 0.8709,
+  "best_performing_model": "Neural Network",
+  "predictions_made": 863
 }
