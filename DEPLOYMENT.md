@@ -34,7 +34,7 @@ Click "Advanced settings" to:
 In the "Advanced settings" → "Secrets" section, add:
 
 ```toml
-GEMINI_API_KEY = "REMOVED_GOOGLE_API_KEY"
+GEMINI_API_KEY = "your-gemini-api-key"
 ```
 
 Then update `app.py` to read from Streamlit secrets:

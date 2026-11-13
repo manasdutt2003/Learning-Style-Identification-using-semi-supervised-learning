@@ -8,3 +8,9 @@ safe_env/
 .env
 .DS_Store
 *.pyc
+
+# Runtime artifacts
+*.db
+prediction_log.txt
+pdf_content*.txt
+catboost_info/

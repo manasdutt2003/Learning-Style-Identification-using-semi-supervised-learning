@@ -18,4 +18,5 @@ COPY . .
 
 EXPOSE 8501
 
-CMD streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
+# Render and Cloud Run inject $PORT; fall back to 8501 everywhere else.
+CMD ["sh", "-c", "streamlit run app.py --server.port=${PORT:-8501} --server.address=0.0.0.0 --server.headless=true"]
