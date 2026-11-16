@@ -28,7 +28,11 @@ semi-supervised and tabular deep-learning models.
 | `generate_*.py`, `extract_pdf*.py` | Scripts that produced the plots, architecture diagram, slides and paper extracts |
 | `data_fs1.csv` | Training data: 17 behavioural features per learner |
 | `*.joblib`, `*.pt`, `*.zip` | Trained model artifacts |
+| `tests/` | pytest tests |
+| `docs/ARCHITECTURE.md` | Architecture notes and known limitations |
 | `IEEE_journal paper.pdf`, `Architecture_Description.pdf`, `Research_Project_Presentation.pptx` | Paper, architecture write-up and slides |
+
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how the parts fit together.
 
 ## Run the Streamlit app
 
@@ -66,6 +70,23 @@ python train_semi_supervised.py
 This reads `data_fs1.csv`, trains each candidate model per dimension with
 self-training on the unlabelled rows, and saves the best one per dimension.
 
+## Tests
+
+```bash
+pip install pytest
+python -m pytest tests -q
+```
+
+## Utility scripts
+
+```bash
+# Extract text from a PDF (pdfminer.six)
+python extract_pdf_miner.py "IEEE_journal paper.pdf" -o paper.txt
+
+# Write placeholder daily stats (override path with DAILY_STATS_FILE)
+python generate_daily_stats.py
+```
+
 ## Docker
 
 ```bash
@@ -81,6 +102,9 @@ docker run -p 8501:8501 learning-style
 - The model-comparison and confusion-matrix charts on the Analytics and
   Visualizations tabs use fixed reference values defined in `app.py`. They are
   not recomputed from the saved models.
+- `data/daily_stats.json` is produced by `generate_daily_stats.py` from random
+  numbers and is marked `"synthetic": true`. It is not real usage or accuracy
+  data.
 
 ## License
 
